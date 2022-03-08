@@ -1,0 +1,76 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    
+    background-image: url('./lib/bulbasaurbkgrd1.png');
+    width: 400px;
+    height: 600px;
+    box-shadow: 1px 4px 10px green;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+.box1 {    
+   
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    width: 260px;
+    height: 80px;
+    border-radius: 5px;
+    font: 1.74rem verdana bold;
+    box-shadow: 0px 0px 10px black;
+    background: #04331b;
+    color: white;
+}
+
+.diadasemana {
+    font: 0.9rem verdana bold;
+    position:absolute;
+    top:335px;
+    color: white;
+}
+
+.alarmTime, input {  
+     
+    display: flex;
+    position:absolute;
+    top:200px;
+    align-items: center;
+    justify-content: center;   
+    border-radius: 5px;
+    font: 1.74rem verdana bold;
+    box-shadow: 0px 0px 10px black;
+    background: #04331b;
+    color: white;
+}
+
+
+.pokebola img {
+    
+    position: absolute;    
+    width: 140px;
+    height: 140px;
+    right: 250px;
+    top: 430px;
+
+}
+
+.cancelAlarm img {
+    position: absolute;
+    top: 440px;
+    left: 70px;
+}
+
+.snooZe img{
+    position: absolute;
+    top: 440px;
+    right: 65px;
+}
